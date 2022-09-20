@@ -1,0 +1,112 @@
+body {
+    /* height: 100vh; */
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to top, #302831, #e20393);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.LOGO {
+    margin-top: -200px;
+    font-size: 300px;
+    font-family: "Helvetica Neue", helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #302831;
+}
+
+.formCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.text1 {
+    font-size: 20px;
+}
+
+
+.input1 {
+    resize: vertical;
+    padding:15px;
+    border-radius:30px;
+    border:0;
+    box-shadow:10px 30px 30px rgba(0,0,0,0.06);
+    height: 45px;
+    text-align: center;
+    /* margin-top: 300px; */
+    /* position: absolute; */
+    width: 500px;
+    /* margin-left: -250px; */
+    height: 50px;
+    align-items: center;
+}
+
+.button1 {
+    /* position: absolute; */
+    width: 500px;
+    /* margin-top: 300px; */
+    /* margin-left: 250px; */
+    font-size: 20px;
+    width:500px;
+    color: black;
+    resize: vertical;
+    padding:15px;
+    border-radius:30px;
+    border:0;
+    box-shadow:10px 30px 30px rgba(0,0,0,0.06);
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.gifCont {
+    /* background-color: white; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.OnePostCont {
+    border-radius: 17px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background: linear-gradient(to top, #e0e0dc, #afaeb0);
+     */
+     background-color: white;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    box-shadow:10px 30px 30px rgba(0,0,0,0.06);
+}
+
+.img {
+    border-radius: 17px;
+    transition: 0.6s;
+}
+.img:hover {
+    transform: scale(1.2);
+}
+
+.ThemesList {
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 30px;
+    margin-left: -300   px;
+    position: absolute;
+
+}
+
+
